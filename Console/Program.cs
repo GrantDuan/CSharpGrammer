@@ -6,8 +6,8 @@ namespace GrammerConsole
   {
     static void Main(string[] args)
     {
-      var af = new AsyncFun();
-      af.Run();
+      new ClosureFun().Run();
+
 
       Console.Read();
     }
